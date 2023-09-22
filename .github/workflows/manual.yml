@@ -1,5 +1,7 @@
-name: Viewer Automation Tests
+name: Manual
 on:
+  #this allows action to be called from other action
+  workflow_call:
   #this allows to run manually
   workflow_dispatch:
     inputs:
