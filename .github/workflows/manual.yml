@@ -1,7 +1,5 @@
 name: Viewer Automation Tests
 on:
-  #this allows action to be calle from other action
-  workflow_call:
   #this allows to run manually
   workflow_dispatch:
     inputs:
