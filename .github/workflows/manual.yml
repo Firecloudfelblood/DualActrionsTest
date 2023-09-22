@@ -16,4 +16,4 @@ jobs:
     steps:
 
       - name: Comment the run
-        run: echo "Manually runned"
+        run: echo "Running Manual Pipeline"
